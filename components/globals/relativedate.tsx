@@ -32,12 +32,12 @@ export const RelativeDate = ({ prefix, date }: RelativeDateProps) => {
 
   return (
     <div>
-      <span>
+      <small>
         {prefix}{" "}
         <time className="text-blue-500 font-bold" dateTime={dayjs(date).format()} title={formattedTimestamp}>
           {relativeTimeInWords}
         </time>
-      </span>
+      </small>
     </div>
   );
 };
