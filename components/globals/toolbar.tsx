@@ -4,24 +4,23 @@ import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import Link from "next/link"
 import { FaGithub } from "react-icons/fa6"
-import { RelativeDate } from "./relativedate"
+// import { RelativeDate } from "./relativedate"
+//  const dateModified = new Date();
 
-const dateModified = new Date();
+// export async function getStaticProps() {
+   // return {
+        // props: {
+         //   RelativeDate,
+       // },
+     //  revalidate: 60, // In seconds
+   // }
+// }      <span className="text-blue-700 font-bold text-md"> <RelativeDate date={dateModified} prefix="Last updated" /> </span> (use this in export default function ToolBar)
 
-export async function getStaticProps() {
-    return {
-        props: {
-            RelativeDate,
-        },
-       revalidate: 60, // In seconds
-    }
-}
 
- function ToolBar() {
+ export default function ToolBar() {
     return (
     <section>
     <div className="flex items-center space-x-4 sm:justify-between sm:space-x-0">
-        <span className="text-blue-700 font-bold text-md"> <RelativeDate date={dateModified} prefix="Last updated" /> </span>
      <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center ">
             <Link
@@ -42,6 +41,3 @@ export async function getStaticProps() {
     </section>
     )
 }
-
-
-export default ToolBar
