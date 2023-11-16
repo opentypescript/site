@@ -6,6 +6,15 @@ import { RelativeDate } from "./relativedate"
 
 const dateModified = new Date();
 
+export async function getStaticProps() {
+    return {
+        props: {
+            RelativeDate,
+        },
+       revalidate: 60, // In seconds
+    }
+}
+
 export default function ToolBar() {
     return (
     <section>
@@ -29,7 +38,7 @@ export default function ToolBar() {
         </div>
       </div>
     </section>
-  )
+    )
 }
 
 
