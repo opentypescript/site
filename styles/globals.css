@@ -40,3 +40,29 @@
   background-image: radial-gradient(#D2D6DB 0.75px, transparent 0);
   background-size: 30px 30px;
 }
+
+.card {
+border-radius: 12px;
+border: 1px dashed #ebebeb;
+background: #fdfdfd;
+transition-property: border-color,background;
+transition-duration: .15s;
+padding: 0.5rem;
+}
+
+.card:hover {
+border: 1px dashed #D0D0D0;
+background: #fff;
+
+transition: 79ms ease;
+  }
+
+  body {
+    background-color: #fff;
+  }
+
+
+.thumbnail {
+  border: #ebebeb 1px dashed;
+  border-radius: 12px;
+}

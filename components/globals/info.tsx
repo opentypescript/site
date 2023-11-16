@@ -7,7 +7,7 @@ import {
 
 export default function Info() {
   return (
-    <div className="py-8">
+    <div className="py-8 pb-32">
     <Accordion type="single" collapsible>
       <AccordionItem value="item-1">
         <AccordionTrigger>
