@@ -19,7 +19,7 @@ export default function ToolBar() {
     return (
     <section>
     <div className="flex items-center space-x-4 sm:justify-between sm:space-x-0">
-        <span className="text-blue-700 font-bold text-md"> <RelativeDate date={dateModified} prefix="Last updated" client:load /> </span>
+        <span className="text-blue-700 font-bold text-md"> <RelativeDate date={dateModified} prefix="Last updated" /> </span>
      <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center ">
             <Link
