@@ -1,2 +1,1 @@
-# site
-opentypescript's site
+# Open Typescript (opents)
