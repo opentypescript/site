@@ -7,6 +7,7 @@ interface CardProps {
   TopicOne: string
   TopicTwo: string
   TopicThree: string
+  Badge: string
 }
 
 const Card: React.FC<CardProps> = ({
@@ -18,13 +19,15 @@ const Card: React.FC<CardProps> = ({
   TopicOne,
   TopicTwo,
   TopicThree,
+  Badge,
 }) => (
   <a href={link}>
     <div className="card ">
       <img className="thumbnail" alt={name} src={thumbnail} />
       <div className="py-3 px-4 md:py-7">
         <div className="flex justify-center lg:justify-start">
-        <span className="flex gap-1">
+          <span className="flex gap-1">
+          <span className="text-blue-500 text-xs border border-blue-200 bg-blue-100 py-1 px-2 rounded-full font-medium">{Badge}</span>
           <span className="text-gray-500 sm:text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
             {TopicOne}
           </span>
@@ -33,7 +36,7 @@ const Card: React.FC<CardProps> = ({
           </span>
           <span className="text-gray-500 sm:text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
             {TopicThree}
-          </span>
+            </span>
         </span>
         </div>
         <h2 className="text-md md:text-lg font-semibold text-gray-800 pt-3">

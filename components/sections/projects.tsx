@@ -2,127 +2,31 @@ import React from "react"
 
 import Card from "@/components/globals/card"
 
+// import { IdeaNest } from "@/lib/images"
+
 const projectsData = [
   {
     releaseDate: "2023",
     TopicOne: "Typescript",
     TopicTwo: "Nextjs",
     TopicThree: "Tailwind",
-    name: "Test",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
+    Badge: "Work-In-Progress" ,
+    name: "IdeaNest",
+    thumbnail: "thumbnails/ideanest.webp",
     description: "im nermalcat69",
-    link: "https://google.com",
+    link: "https://github.com/opentypescript/IdeaNest",
   },
   {
     releaseDate: "2023",
     TopicOne: "Typescript",
     TopicTwo: "Nextjs",
     TopicThree: "Tailwind",
-    name: "Test",
+    Badge: "Work-In-Progress",
+    name: "Site",
     thumbnail:
       "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2022",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "test 2",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2021",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "LOLZ",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2021",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "LOLZ",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2021",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "LOLZ",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2021",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "LOLZ",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2021",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "LOLZ",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2021",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "LOLZ",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2021",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "LOLZ",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
-  },
-  {
-    releaseDate: "2021",
-    TopicOne: "Typescript",
-    TopicTwo: "Nextjs",
-    TopicThree: "Tailwind",
-    name: "LOLZ",
-    thumbnail:
-      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
-    link: "https://google.com",
+    link: "https://github.com/opentypescript/Site",
   },
 ]
 
