@@ -13,7 +13,7 @@ const projectsData = [
     Badge: "Work-In-Progress" ,
     name: "IdeaNest",
     thumbnail: "thumbnails/ideanest.webp",
-    description: "im nermalcat69",
+    description: "A place to share ideas and find ideas.",
     link: "https://github.com/opentypescript/IdeaNest",
   },
   {
@@ -25,7 +25,7 @@ const projectsData = [
     name: "Site",
     thumbnail:
       "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
-    description: "im nermalcat69",
+    description: "main site for opents.",
     link: "https://github.com/opentypescript/Site",
   },
 ]
